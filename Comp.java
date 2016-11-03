@@ -1,4 +1,4 @@
-/* Author: Jack and Bobby
+/* Author: Jack, Bobby
 Date: 10/31/16
 Description: making thing with loops
 */
@@ -16,20 +16,19 @@ public class Comp{
     String number = scan.nextLine();
     
     if(number.equals ("1")){
-      for (int i = 1; i <= 1000000; i ++) {
+         for (int i = 1; i <= 1000000; i ++) {
             System.out.print(i + " ");
-    } 
-    else if(number.equals ("2")){
-        for (int i = 0; i <= 1000000; i +=5) {
+        }
+        } else if(number.equals ("2")){
+         for (int i = 0; i <= 1000000; i +=5) {
               System.out.print(i + " ");
-    }
-    else if(number.equals ("3") ){
+         }
+            }else if(number.equals ("3") ){
 
     for(int i = 100; i >= 0; i--){
         System.out.print(i + " ");
     }
-    }
-    else if(number.equals ("4")){
+    } else if(number.equals ("4")){
     for(int i = 1000; i <= 100000; i += 10) {
         System.out.print(i + " ");
     }   
@@ -37,5 +36,3 @@ public class Comp{
         
     }
 }
-
-
