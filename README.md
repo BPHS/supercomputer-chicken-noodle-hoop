@@ -1,1 +1,1 @@
-first attempt at a supercomputer - Munn
+first attempt at a supercomputer - Munn, Szumowski
